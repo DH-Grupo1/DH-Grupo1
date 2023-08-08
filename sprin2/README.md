@@ -9,9 +9,8 @@ LINK DE INVITACION (para el tablero)
 https://trello.com/invite/b/Dwu8cspl/ATTI83aa0f18810d0af3eb0d617a057dc011258AC5F3/dhgrupo1starphone
 
 Grupo conformado por:
+- Torres Nahuel
 - Carballo Jeremias
 - Lopez Daniela
-- Torres Nahuel
-- Zambrano Lucas
 - Navarro Fernando
-
+- Zambrano Lucas
