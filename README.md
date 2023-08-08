@@ -1,5 +1,5 @@
 - 👋 Hola! somos el Grupo1 de la beca de DigitalHouse
-- 🫂 El grupo esta conformado por:
+-   Grupo conformado por:
 - Torres Nahuel
 - Carballo Jeremias
 - Lopez Daniela
