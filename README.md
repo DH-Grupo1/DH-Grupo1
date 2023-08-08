@@ -1,7 +1,5 @@
 - 👋 Hola! somos el Grupo1 de la beca de DigitalHouse
 - 🫂 El grupo esta conformado por:
-- Flores Dariana
-- Abracaite Pascual
 - Carballo Jeremias
 - Lopez Daniela
 - Torres Nahuel
