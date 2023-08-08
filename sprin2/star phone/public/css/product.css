@@ -305,7 +305,7 @@ a{
 }
 
 @media (min-width:769px){
-
+    
     
   
     #logo{
@@ -343,13 +343,18 @@ a{
     .barra-navegacion ul{
         display: flex;
     }
-
+    .desc{
+        font-size: 15px;
+       
+            }
 }
 
 
 
 
 @media (max-width:730px){
+
+    
     .conteiner {
         display: flex;
         flex-direction: column;
@@ -403,4 +408,13 @@ a{
         max-width: 100%;
         height: auto;
     }
-}
+    .desc{
+        font-size: 15px;
+            width: 100%;
+                max-width: 500px;
+                margin: 30px auto;
+                padding: 20px;
+            }
+
+   }
+ 
