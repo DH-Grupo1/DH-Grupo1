@@ -1,8 +1,8 @@
 - 👋 Hola! somos el Grupo1 de la beca de DigitalHouse
 - 🫂 El grupo esta conformado por:
+- Torres Nahuel
 - Carballo Jeremias
 - Lopez Daniela
-- Torres Nahuel
 - Zambrano Lucas
 - Navarro Fernando
 - 🌱 Creamos este Github pra realizar el proyecto integrador
