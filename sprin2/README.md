@@ -8,10 +8,10 @@ https://trello.com/b/Dwu8cspl/dhgrupo1starphone
 LINK DE INVITACION (para el tablero)
 https://trello.com/invite/b/Dwu8cspl/ATTI83aa0f18810d0af3eb0d617a057dc011258AC5F3/dhgrupo1starphone
 
- El grupo esta conformado por:
-•	Carballo Jeremias
-•	Lopez Daniela
-•	Torres Nahuel
-•	Zambrano Lucas
-•	Navarro Fernando
+Grupo conformado por:
+- Carballo Jeremias
+- Lopez Daniela
+- Torres Nahuel
+- Zambrano Lucas
+- Navarro Fernando
 
