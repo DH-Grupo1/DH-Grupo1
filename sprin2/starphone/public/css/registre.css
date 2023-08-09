@@ -257,3 +257,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
+@media (min-width: 769px){}
+#logo {
+    display: inline;
+    font-size: 29px;
+    width: 18%;
+    margin: 1vw 2vw;}
