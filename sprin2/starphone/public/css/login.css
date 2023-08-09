@@ -1,0 +1,366 @@
+body{
+    background-color: #aa9f00;
+}
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header pricipal*/
+
+
+.header-container{
+    background-color: #003904;
+ padding-top: 15px;
+ padding-left: 0;
+}
+
+#logo{
+    display: inline;
+    font-size: 30px;
+    margin: 1vw 2vw;
+    text-decoration: none; 
+    color: white;
+}
+
+
+#carrito{
+    width: 6vw;
+    margin: 0 10px 0 0;
+    
+}
+/**/
+#carrito:hover {
+    transform: scale(1.15);
+}
+
+.fa-circle-user{
+    font-size: 5vw;
+}
+/**/
+.fa-circle-user:hover {
+    transform: scale(1.15);
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.search-flex {
+    display: flex;
+    align-self: center;
+    background-color: #aa9f00;
+    padding: 1vw;
+    border-radius: 25px;
+
+}
+.nav-principal{
+    display: flex;
+}
+
+.nav-principal a{
+    display: flex;
+    text-decoration: none;
+}
+
+.burger-menu{
+    font-size: 15px;
+}
+
+/* agregando barra de navegacion*/
+.barra-navegacion{
+    display: flex;
+    justify-content: space-between;
+    background-color: #003904;
+    padding: 1vw;
+}
+
+.barra-navegacion ul{
+    display: none;
+    margin: auto;
+}
+.barra-navegacion li{
+    margin: 0vw 2vw;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    background-color: #175700;
+}
+
+/*hasta aqui termina*/
+
+.micarrito{
+    color: white;
+    display: none;
+    align-items: center;
+}
+
+.ingresar{
+    color: white;
+    display: none;
+    align-items: center;
+}
+
+.search{
+    background-color: #aa9f00;
+    width: 30vw;
+}
+
+.boton{
+    background-color: #aa9f00;
+}
+
+
+ul li{
+    list-style: none;
+    margin: 0 1vw 0 0;
+}
+
+.nav-principal{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+
+@media (min-width: 361px){
+    #logo{
+        display: inline;
+        font-size: 21px;
+        margin: 1vw 2vw;
+        text-decoration: none;
+        color: white;
+    }
+
+    .flex-container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .imagenes{
+       width: 200px;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+
+    .barra-navegacion ul{
+        display: contents;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+    
+}
+
+@media (min-width:769px){
+  
+    #logo{
+        
+            display: inline;
+            font-size: 21px;
+            
+    
+        margin: 0 0 0 40px;
+    }
+
+    #carrito{
+        width: 3vw;
+    }
+    
+    .nav-principal {
+        margin: 0px 20px 0 0;
+    }
+
+    .fa-circle-user{
+        font-size: 3vw;
+    }
+    
+    
+    .articulos{
+        margin: 5px 5px;
+        
+
+    }
+
+    .flex-container{
+        display: flex;
+       
+    }
+
+    .barra-navegacion ul{
+        display: flex;
+    }
+
+}
+.formulario {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #003904;
+    border-radius: 30px;
+}
+.formulario h1 {
+    text-align: center;
+    color: #aa9f00;
+    padding: 20px;
+    border-bottom: 1px solid silver;
+}
+.formulario form {
+    padding: 0 30px;
+    
+}
+form .username {
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 10px 0;
+}
+.username input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.username label{
+    position: absolute;
+    top: 60%;
+    bottom: 10%;
+    left: 5px;
+    color: silver;
+    transform: translateY(-50%);
+    font-size: 14px;
+    pointer-events: none;
+    transition: .5s;
+}
+.username span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #003904;
+    transition: .5s;
+}
+.username input:focus ~ label,
+.username input:focus ~ label
+{
+    top: -5px;
+    color: #003904;
+}
+.username input:focus ~ span::before,
+.username input:focus ~ span::before 
+{
+width: 100%;
+}
+form .contraseña {
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 10px 0;
+}
+.contraseña input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.contraseña label{
+    position: absolute;
+    top: 50%;
+    bottom: 10%;
+    left: 5px;
+    color: silver;
+    transform: translateY(-50%);
+    font-size: 14px;
+    pointer-events: none;
+    transition: .5s;
+}
+.contraseña span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #003904;
+    transition: .5s;
+}
+.contraseña input:focus ~ label,
+.contraseña input:focus ~ label
+{
+    top: -5px;
+    color: #003904;
+}
+.contraseña input:focus ~ span::before,
+.contraseña input:focus ~ span::before 
+{
+width: 100%;
+}
+.recordar {
+    padding-top: 5%;
+    margin: -5px 0 20px 5px;
+    color: silver;
+    cursor: pointer;
+}
+.recordar:hover {
+    text-decoration: underline;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #aa9f00;
+    border-radius: 25px;
+    font-size: 18px;
+    color:#003904;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]:hover {
+    border-color: #003904;
+    transition: .5s;
+}
+.registro{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: silver;
+}
+.registro a {
+    color: silver;
+    text-decoration: none;
+}
+.registro a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width:730px){
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+        width: 336px;
+    }
+}

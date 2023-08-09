@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="https://kit.fontawesome.com/e666ffac4e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>  
+    <header>
+    <!--header principal: logo, user, carito--->
+    <div class="header-container">
+        <h2 id="logo">STAR PHONE</h2>
+        
+        <form class="search-flex"  action="/buscar" method="POST">
+        
+            <input class="search" type="text" name="buscar" placeholder="Buscar...">
+            <button class="boton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+
+        <ul class="nav-principal">
+            <li>
+                <a href="http://localhost:3600/carrito"><img id="carrito" src="/img/carrito.png"><span class="micarrito">Mi carrito</span></a>
+            </li>
+            <li>
+                <a href="http://localhost:3600/register"><i class="fa-regular fa-circle-user"></i><p class="ingresar">Ingresar</p></a>
+            </li>
+        </ul>
+    </div>
+<!--barra de navegacion-->
+    <nav class="barra-navegacion">
+        <ul class="barra-i">
+            <li><a href="@">Productos</a></li>
+            <li><a href="@">Beneficios</a></li>
+            <li><a href="@">Seguimiento</a></li>
+            <li><a href="http://localhost:3600/ayuda">Ayuda</a></li>
+        </ul>
+        <a href="#" class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </a>
+    </nav>
+    
+<!--barra de navegacion-->
+</header>
+<main>
+<!--slider-->
+    <div class="slider-frame">
+        <ul>
+            <li><img src="/img/slider1.png" alt=""></li>
+            <li><img src="/img/slider2.png" alt=""></li>
+            <li><img src="/img/slider3.png" alt=""></li>
+        </ul>
+    </div>
+<!--Barra de productos-->
+
+        <h2>Ultimas novedades</h2>
+        <hr class="linea-horizontal">
+        <section class="flex-container">
+                <article class="articulo">
+                    <a href="http://localhost:3600/product"> <img class="imagenes" src="img/PCG-1.png" alt="Imagen 1"></a>
+                    <div class="nombre-producto">Samsung S23 ultra</div>
+                    <div class="precio-producto">$456.000</div>
+                </article>
+    
+
+                <article class="articulo">
+                    <img class="imagenes" src="/img/PCG-2.png" alt="Imagen 2">
+                    <div class="nombre-producto">Auriculares samsung</div>
+                    <div class="precio-producto">$45.000</div>
+                </article>
+      
+
+                <article class="articulo">
+                    <img class="imagenes" src="img/producto-3.png" alt="Imagen 3">
+                    <div class="nombre-producto">Iphone 13 pro
+                    </div>
+                    <div class="precio-producto">$559.999</div>
+                </article>
+           
+
+                <article class="articulo">
+                    <img class="imagenes" src="img/producto-4.png" alt="Imagen 4">
+                    <div class="nombre-producto">Xiaomi Mi 11s</div>
+                    <div class="precio-producto">$200.000</div>
+                </article>
+        
+        </section>
+    <!--hasta aqui llega-->
+    </main>
+
+
+
+    <!--(                    )-->
+    <div class="caja-padre">
+        <div class="caja">
+            <a href="#"> <img class="img1" src="/img/card.png" alt="tarjeta"> </a>
+        </div>
+        <div class="info-text">
+            <span style="font-family: Montserrat Medium;">PAGA EN HASTA 12 CUOTAS</span>
+            <br>
+            con las principales tarjetas"
+            <br>
+            de credito
+        </div>
+        <div class="caja">
+            <a href=""> <img class="img1" src="/img/camion.png" alt="camion"> </a>
+        </div>
+        <div class="info-text">
+            <span style="font-family: Montserrat Medium;">BRRECIBI TUS PEDIDOS</span>
+            <br>
+            en mas de 100
+            <br>puntos
+            <br>
+            de todo el pais
+
+        </div>
+
+    </div>
+    
+
+
+    <footer class="footer-color">
+        <ul>
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Contactanos</h2>
+            </div>
+            <div class="redes-sociales">
+                <i class ="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="contenedor">
+                <p class="copy">2023Grupo1/Todos los derechos reservados.</p>
+                <br>
+            </div>
+    </footer>
+</body>
+</html>

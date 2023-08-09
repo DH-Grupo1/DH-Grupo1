@@ -1,0 +1,455 @@
+body{
+   
+    background-color: #aa9f00;
+}
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header pricipal*/
+
+header{
+    margin: auto;
+    width: 100%;
+}
+.header-container{
+    background-color: #003904;
+ 
+}
+
+#logo{
+    margin: 0vw 2vw;
+    text-decoration: none;
+    color: white;
+}
+
+#carrito{
+    width: 6vw;
+    margin: 0 10px 0 0;
+    
+}
+/**/
+#carrito:hover {
+    transform: scale(1.15);
+}
+
+.fa-circle-user{
+    font-size: 5vw;
+}
+/**/
+.fa-circle-user:hover {
+    transform: scale(1.15);
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.search-flex {
+    display: flex;
+    align-self: center;
+    background-color: #aa9f00;
+    padding: 1vw;
+    border-radius: 25px;
+
+}
+.nav-principal{
+    display: flex;
+}
+
+.nav-principal a{
+    display: flex;
+    text-decoration: none;
+}
+
+.burger-menu{
+    font-size: 15px;
+}
+
+/* agregando barra de navegacion*/
+.barra-navegacion{
+    display: flex;
+    justify-content: space-between;
+    background-color: #003904;
+    padding: 1vw;
+}
+
+.barra-navegacion ul{
+    display: none;
+    margin: auto;
+}
+.barra-navegacion li{
+    margin: 0vw 2vw;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    background-color: #175700;
+}
+
+/*hasta aqui termina*/
+
+.micarrito{
+    color: white;
+    display: none;
+    align-items: center;
+}
+
+.ingresar{
+    color: white;
+    display: none;
+    align-items: center;
+}
+
+.search{
+    background-color: #aa9f00;
+    width: 30vw;
+}
+
+.boton{
+    background-color: #aa9f00;
+}
+
+
+ul li{
+    list-style: none;
+    margin: 0 1vw 0 0;
+}
+
+.nav-principal{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+
+/*slider*/
+main{
+    background-color: #aa9f00;
+}
+.slider-frame {
+    background-color: #aa9f00;
+	width: 35%;
+    height: auto;
+	margin: 0px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 300%;
+	justify-content: space-between;
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 101%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+}
+/*barra de producto*/
+.linea-horizontal {
+    border: 1px solid #175700; /* Ancho y color del borde de la línea */
+    margin: 20px 0; /* Espacio antes y después de la línea */
+  }
+
+h2{
+    margin: 0 15px;
+    font-size: 4vw;
+}
+
+section{
+    padding: 20px;
+    margin: auto;
+}
+
+.imagenes{
+    width: 80%;
+}
+
+article{
+    margin-bottom: 15px;
+}
+
+.articulo{
+    padding: 10px;
+    border: solid 1px black;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.articulo:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.418)
+}
+.img1{
+    width: 15vw;
+}
+
+.info-text{
+    margin: 10px;
+    font-size: 10px;
+}
+/* barra de producto */
+
+/*main*/
+
+h1{
+    font-size: 4vw;
+    padding: 3vw;
+}
+
+
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    60% {
+        -webkit-transform: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
+}
+
+
+/*foteer*/
+
+.footer-color{
+    background-color: #968c00 ;
+}
+
+.titulo-seccion {
+    color: black;
+    justify-content: center;
+    display: flex;
+    font-size: 2vw;
+    
+}
+footer .copy{
+    color: black;
+    justify-content: center;
+    display: flex;
+    font-size: 2vw;
+
+}
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+    margin: 10px;
+}
+.fa-twitter{
+    margin: 0 30px;
+}
+.fa-whatsapp{
+    margin: 0 30px;
+}
+.fa-facebook{
+    margin: 0 30px;
+}
+.fa-instagram {
+    margin: 0 30px;
+}
+.fa-facebook:hover, .fa-twitter:hover, .fa-whatsapp:hover, .fa-instagram:hover {
+    transform: scale(1.15);
+} 
+.copy {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.caja-padre {
+    background-color: #9c9202;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: #9c9202 4px solid ;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.img {
+    margin: 30px;
+}
+.img:hover{
+    transform: scale(1.5);
+}
+.info-text{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ 
+/*responsive*/
+
+@media (min-width: 361px){
+    .flex-container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+.info-text{
+    margin: 5vw;
+    font-size: 100%;
+}
+    .imagenes{
+       width: 200px;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+
+    .barra-navegacion ul{
+        display: contents;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+    .img1{
+        width: 125%;
+    }
+    .conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.descripcion {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.producto h3 {
+    margin: 10px 0;
+}
+
+.boton-padre {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.boton-pa {
+    margin: 0 10px;
+}
+
+/* Estilos para imágenes responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+}
+
+@media (min-width:769px){
+  
+    #logo{
+        display: inline;
+    font-size: 30px;
+        width: 15%;
+        margin: 1vw 2vw;
+    }
+
+    #carrito{
+        width: 3vw;
+    }
+    
+    .nav-principal {
+        margin: 0px 20px 0 0;
+    }
+
+    .fa-circle-user{
+        font-size: 3vw;
+    }
+    
+    
+    .articulos{
+        margin: 5px 5px;
+        
+
+    }
+
+    .flex-container{
+        display: flex;
+       
+    }
+
+    .barra-navegacion ul{
+        display: flex;
+    }
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.descripcion {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.producto h3 {
+    margin: 10px 0;
+}
+
+.boton-padre {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.boton-pa {
+    margin: 0 10px;
+}
+
+/* Estilos para imágenes responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+}
